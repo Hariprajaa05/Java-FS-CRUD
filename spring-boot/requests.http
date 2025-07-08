@@ -1,0 +1,33 @@
+### GET request to example server
+GET http://localhost:8080
+
+###
+
+GET http://localhost:8080/api/software-engineering
+
+###
+
+GET http://localhost:8080/api/software-engineering/1
+
+###
+
+POST http://localhost:8080/api/software-engineering
+Content-Type: application/json
+
+{
+  "name": "Melisha",
+  "techStack": ["DevOps","System Design"]
+}
+
+###
+
+DELETE http://localhost:8080/api/software-engineering/1
+
+###
+PUT http://localhost:8080/api/software-engineering/1
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "techStack": ["Java", "Spring Boot", "PostgreSQL"]
+}
